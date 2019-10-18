@@ -3,7 +3,7 @@
 @section('content')
 
 
-<form method="POST" action="/submit">
+<form method="POST" action="submit">
     @csrf
     Som en 
     <input type="text" required name="roll" placeholder="roll">
