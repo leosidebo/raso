@@ -13,7 +13,15 @@ class SubmitController extends Controller
 
         $answers->save();
 
-        return redirect('submit');
+        $id = $answers->id;
+        return redirect($id);
 
+    }
+
+    public function show($id)
+    {
+        $answer = Form::find($id);
+
+        return view('story', ['answer' => $answer]);
     }
 }

@@ -19,12 +19,6 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/submit', function () {
-    $answer = App\Form::all()->last();
-
-    return view('submit', [
-        'answer' => $answer
-    ]);
-}); 
+Route::get('/{story}', 'SubmitController@show'); 
 
 Route::post('/submit', 'SubmitController@store');
