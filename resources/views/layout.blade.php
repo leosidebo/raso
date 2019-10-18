@@ -7,7 +7,7 @@
 </head>
 <body>
     <div class="main-page">
-        <a href='https://external.umea-ntig.se/~sidleo17/public'><img src="RASO.svg"></a>
+        <a href='https://external.umea-ntig.se/~sidleo17/public/'><img src="RASO.svg"></a>
         @yield('content')
     </div>  
         
