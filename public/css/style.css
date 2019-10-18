@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+:root {
+    --primary: #d63cc4;
+    --secondary: #9388da;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 50px;
+    background-image: linear-gradient(#d63cc4, #9388da);
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 22px;
+}
+
+.main-page {
+    background-color: white;
+    padding: 25px;
+    min-height: 100vh;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.main-page img {
+    display: block;
+    margin: auto;
+}
+
+form {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 22px;
+}
+
+input {
+    outline-color: var(--primary);
+    font-size: 1em;
+    width: 150px;
+}
+
+button {
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: var(--primary);
+}
+
+.previous-answers {
+    padding-top: 100px;
+}
