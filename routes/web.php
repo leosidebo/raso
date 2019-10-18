@@ -19,6 +19,6 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/{story}', 'SubmitController@show'); 
+Route::get('{story}', 'SubmitController@show'); 
 
-Route::post('/submit', 'SubmitController@store');
+Route::post('submit', 'SubmitController@store');
