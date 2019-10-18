@@ -7,7 +7,7 @@
 </head>
 <body>
     <div class="main-page">
-        <a href='/'><img src="RASO.svg"></a>
+        <a href=''><img src="RASO.svg"></a>
         @yield('content')
     </div>  
         
